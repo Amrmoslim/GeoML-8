@@ -1,0 +1,49 @@
+<svg width="900" height="180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0f3460"/>
+    </linearGradient>
+    <linearGradient id="textgrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e94560"/>
+      <stop offset="50%" style="stop-color:#ffd700"/>
+      <stop offset="100%" style="stop-color:#a8edea"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="180" fill="url(#bg)" rx="16"/>
+
+  <!-- Seismic wave lines -->
+  <g opacity="0.25">
+    <path d="M0,90 Q30,60 60,90 Q90,120 120,90 Q150,60 180,90 Q210,120 240,90 Q270,60 300,90 Q330,120 360,90 Q390,60 420,90 Q450,120 480,90 Q510,60 540,90 Q570,120 600,90 Q630,60 660,90 Q690,120 720,90 Q750,60 780,90 Q810,120 840,90 Q870,60 900,90" stroke="#a8edea" stroke-width="1.5" fill="none">
+      <animate attributeName="d" dur="4s" repeatCount="indefinite"
+        values="M0,90 Q30,60 60,90 Q90,120 120,90 Q150,60 180,90 Q210,120 240,90 Q270,60 300,90 Q330,120 360,90 Q390,60 420,90 Q450,120 480,90 Q510,60 540,90 Q570,120 600,90 Q630,60 660,90 Q690,120 720,90 Q750,60 780,90 Q810,120 840,90 Q870,60 900,90;
+               M0,90 Q30,120 60,90 Q90,60 120,90 Q150,120 180,90 Q210,60 240,90 Q270,120 300,90 Q330,60 360,90 Q390,120 420,90 Q450,60 480,90 Q510,120 540,90 Q570,60 600,90 Q630,120 660,90 Q690,60 720,90 Q750,120 780,90 Q810,60 840,90 Q870,120 900,90;
+               M0,90 Q30,60 60,90 Q90,120 120,90 Q150,60 180,90 Q210,120 240,90 Q270,60 300,90 Q330,120 360,90 Q390,60 420,90 Q450,120 480,90 Q510,60 540,90 Q570,120 600,90 Q630,60 660,90 Q690,120 720,90 Q750,60 780,90 Q810,120 840,90 Q870,60 900,90"/>
+    </path>
+    <path d="M0,100 Q45,70 90,100 Q135,130 180,100 Q225,70 270,100 Q315,130 360,100 Q405,70 450,100 Q495,130 540,100 Q585,70 630,100 Q675,130 720,100 Q765,70 810,100 Q855,130 900,100" stroke="#e94560" stroke-width="1" fill="none">
+      <animate attributeName="d" dur="3s" repeatCount="indefinite"
+        values="M0,100 Q45,70 90,100 Q135,130 180,100 Q225,70 270,100 Q315,130 360,100 Q405,70 450,100 Q495,130 540,100 Q585,70 630,100 Q675,130 720,100 Q765,70 810,100 Q855,130 900,100;
+                M0,100 Q45,130 90,100 Q135,70 180,100 Q225,130 270,100 Q315,70 360,100 Q405,130 450,100 Q495,70 540,100 Q585,130 630,100 Q675,70 720,100 Q765,130 810,100 Q855,70 900,100;
+                M0,100 Q45,70 90,100 Q135,130 180,100 Q225,70 270,100 Q315,130 360,100 Q405,70 450,100 Q495,130 540,100 Q585,70 630,100 Q675,130 720,100 Q765,70 810,100 Q855,130 900,100"/>
+    </path>
+  </g>
+
+  <!-- Stars -->
+  <circle cx="50" cy="30" r="1.5" fill="white" opacity="0.6"><animate attributeName="opacity" dur="2s" repeatCount="indefinite" values="0.2;1;0.2"/></circle>
+  <circle cx="200" cy="20" r="1" fill="white" opacity="0.5"><animate attributeName="opacity" dur="3s" repeatCount="indefinite" values="1;0.2;1"/></circle>
+  <circle cx="750" cy="25" r="1.5" fill="white" opacity="0.7"><animate attributeName="opacity" dur="2.5s" repeatCount="indefinite" values="0.3;1;0.3"/></circle>
+  <circle cx="850" cy="40" r="1" fill="white" opacity="0.5"><animate attributeName="opacity" dur="1.8s" repeatCount="indefinite" values="1;0.1;1"/></circle>
+  <circle cx="650" cy="15" r="1.5" fill="#a8edea" opacity="0.6"><animate attributeName="opacity" dur="2.2s" repeatCount="indefinite" values="0.4;1;0.4"/></circle>
+  <circle cx="400" cy="160" r="1" fill="#ffd700" opacity="0.5"><animate attributeName="opacity" dur="3s" repeatCount="indefinite" values="1;0.2;1"/></circle>
+
+  <!-- Main Title -->
+  <text x="450" y="75" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="38" font-weight="900" fill="url(#textgrad)">
+    🌋 AI &amp; ML for Geoscientists
+  </text>
+  <text x="450" y="112" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#a8edea" opacity="0.9">
+    From Zero to Neural Net — One Rock at a Time 🪨
+  </text>
+  <text x="450" y="148" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#8892a4">
+    Because your well logs deserve better than Excel 😅
+  </text>
+</svg>
